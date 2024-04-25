@@ -1,9 +1,12 @@
 import React from "react";
+import NavBarTop from "../components/NavBarTop";
+import NavbarBottom from "../components/NavBarBottom";
 
 function Header() {
   return (
     <div>
-      <h1>Header</h1>
+      <NavBarTop />
+      <NavbarBottom />
     </div>
   );
 }
