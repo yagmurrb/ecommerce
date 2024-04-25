@@ -1,7 +1,7 @@
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/HomePage";
-import BuyMe from "./components/BuyMe";
+import BuyNow from "./components/BuyNow";
 import Featured from "./components/Featured";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <Switch>
       <Route exact path="/">
         <HomePage />
-        <BuyMe />
+        <BuyNow />
         <Featured />
       </Route>
     </Switch>
