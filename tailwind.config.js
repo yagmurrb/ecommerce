@@ -12,6 +12,7 @@ export default {
         "success-color": "#2DC071",
         "alert-color": "#E77C40",
         "danger-color": "#E74040",
+        "muted-text-color": "#BDBDBD",
         "hover-color": "#2A7CC7",
         "disabled-element-color": "#8EC2F2",
         "muted-color": "#BDBDBD",

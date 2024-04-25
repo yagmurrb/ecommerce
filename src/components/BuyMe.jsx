@@ -15,11 +15,42 @@ function BuyMe() {
         {/* Sağ kısım - Metin */}
         <div className="w-full md:w-1/2 px-4">
           <div className="text-center md:text-left">
-            <h5 className="text-xl font-montserrat">Summer 2020</h5>
-            <h1 className="text-4xl font-montserrat mb-4">
-              Part of the Neural Universe
-            </h1>
-            <h4 className="text-2xl mb-6 text-second-text-color font-montserrat  ">
+            <h5
+              className="font-montserrat font-bold text-xs leading-6 tracking-tighter text-muted-text-color"
+              style={{
+                fontSize: "16px",
+                lineHeight: "24px",
+                letterSpacing: "0.1px",
+                width: "122px",
+                height: "24px",
+              }}
+            >
+              SUMMER 2020
+            </h5>
+
+            <div className="w-96 h-24">
+              <h2
+                className="font-montserrat font-bold text-2xl leading-10 tracking-wide"
+                style={{
+                  fontSize: "40px",
+                  lineHeight: "50px",
+                  letterSpacing: "0.2px",
+                }}
+              >
+                {" "}
+                Part of the Neural Universe
+              </h2>
+            </div>
+            <h4
+              className="font-montserrat font-normal text-base leading-7 tracking-wide text-second-text-color"
+              style={{
+                fontSize: "20px",
+                lineHeight: "30px",
+                letterSpacing: "0.2px",
+                width: "376px",
+                height: "60px",
+              }}
+            >
               We know how large objects will act, but things on a small scale.
             </h4>
             <div>
