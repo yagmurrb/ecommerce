@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
+      },
       colors: {
         "dark-bg-color": "#252B42",
         "light-bg-color": "#FFFFFF",
@@ -14,7 +17,7 @@ export default {
         "danger-color": "#E74040",
         "hover-color": "#2A7CC7",
         "disabled-element-color": "#8EC2F2",
-        "muted-text-color": "#BDBDBD",
+        "muted-color": "#BDBDBD",
         "light-gray-1": "#FAFAFA",
         "light-gray-2": "#ECECEC",
         "faded-primary-color": "#B2E3FF",
@@ -32,8 +35,9 @@ export default {
       h2: ["40px", "57px"],
       h3: ["24px", "32px"],
       h4: ["20px", "30px"],
-      h5: ["16px", "22px"],
+      h5: ["16px", "24px"],
       h6: ["14px", "24px"],
+      small: ["12px", "16px"],
       btnText: ["14px", "28px"],
       mobileMenu: ["30px", "45px"],
       paragraph: ["14px", "20px"],

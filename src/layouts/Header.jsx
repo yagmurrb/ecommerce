@@ -1,6 +1,6 @@
 import React from "react";
-import NavBarTop from "../components/NavBarTop";
-import NavbarBottom from "../components/NavBarBottom";
+import NavBarTop from "../components/headerComponents/NavBarTop";
+import NavbarBottom from "../components/headerComponents/NavBarBottom";
 
 function Header() {
   return (
