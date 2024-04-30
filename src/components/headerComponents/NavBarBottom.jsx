@@ -5,29 +5,10 @@ function NavbarBottom() {
     <div className="bg-light-bg-color text-h3 p-4 flex justify-between items-center">
       <div className="flex items-center">
         <p className="m-0 mr-6 text-text-color font-bold bg-white text-h3">
-          Bandage
+          UniqueR
         </p>
         <div className="relative">
-          <div className="absolute top-full left-0 w-32 bg-gray-800 py-2 rounded-md shadow-lg hidden">
-            {/* <a
-              href="#"
-              className="block px-4 py-2 text-white hover:bg-gray-700"
-            >
-              Category 1
-            </a>
-            <a
-              href="#"
-              className="block px-4 py-2 text-white hover:bg-gray-700"
-            >
-              Category 2
-            </a>
-            <a
-              href="#"
-              className="block px-4 py-2 text-white hover:bg-gray-700"
-            >
-              Category 3
-            </a> */}
-          </div>
+          <div className="absolute top-full left-0 w-32 bg-gray-800 py-2 rounded-md shadow-lg hidden"></div>
         </div>
         <a href="#" className="text-link text-h6 hover:underline mr-4">
           Home
