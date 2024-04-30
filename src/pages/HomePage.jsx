@@ -5,7 +5,7 @@ import CarouselTop from "../components/homepageComponents/CarouselTop";
 import FeaturedPosts from "../components/homepageComponents/FeaturedPosts";
 import BestSeller from "../components/homepageComponents/BestSeller";
 import CarouselBottom from "../components/homepageComponents/CarouselBottom";
-import Editor from "../components/Editor";
+import Editor from "../components/homepageComponents/Editor";
 
 function HomePage() {
   return (
