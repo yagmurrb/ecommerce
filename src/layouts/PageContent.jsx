@@ -4,7 +4,6 @@ import HomePage from "../pages/HomePage";
 import { Route, Switch } from "react-router-dom";
 import ProductDetailPage from "../pages/ProductDetailPage";
 import ShopPage from "../pages/ShopPage";
-
 import CommunityPage from "../components/communitypageComponents/CommunityPage";
 
 function PageContent() {
@@ -19,9 +18,9 @@ function PageContent() {
         </Route>
         <Route path="/shop">
           <ShopPage />
-          <Route path="/community">
-            <CommunityPage />
-          </Route>
+        </Route>
+        <Route path="/community">
+          <CommunityPage />
         </Route>
       </Switch>
     </div>

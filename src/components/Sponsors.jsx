@@ -1,5 +1,5 @@
 import React from "react";
-import { sponsorlogos } from "../../data/data";
+import { sponsorlogos } from "../data/data";
 
 function Sponsors() {
   return (

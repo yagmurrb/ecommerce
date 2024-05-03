@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
-import Sponsors from "../components/shoppageComponents/Sponsors";
+import Sponsors from "../components/Sponsors";
 
 function ProductDetail() {
   return (
