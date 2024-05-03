@@ -9,6 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
+import Sponsors from "../components/shoppageComponents/Sponsors";
 
 function ProductDetail() {
   return (
@@ -202,6 +203,9 @@ function ProductDetail() {
               salePrice={card.salePrice}
             />
           ))}
+          <div className="w-full md:w-[calc(100%+16px)] md:ml-[-8px]">
+            <Sponsors />
+          </div>
         </div>
       </div>
     </section>

@@ -5,6 +5,8 @@ import { Route, Switch } from "react-router-dom";
 import ProductDetailPage from "../pages/ProductDetailPage";
 import ShopPage from "../pages/ShopPage";
 
+import CommunityPage from "../components/communitypageComponents/CommunityPage";
+
 function PageContent() {
   return (
     <div>
@@ -17,6 +19,9 @@ function PageContent() {
         </Route>
         <Route path="/shop">
           <ShopPage />
+          <Route path="/community">
+            <CommunityPage />
+          </Route>
         </Route>
       </Switch>
     </div>
