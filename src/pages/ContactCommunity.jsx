@@ -1,7 +1,7 @@
 import React from "react";
 import CommunityPage from "../components/communitypageComponents/CommunityPage";
 
-function T5Community() {
+function ContactCommunnity() {
   return (
     <div>
       <CommunityPage />
@@ -9,4 +9,4 @@ function T5Community() {
   );
 }
 
-export default T5Community;
+export default ContactCommunnity;
