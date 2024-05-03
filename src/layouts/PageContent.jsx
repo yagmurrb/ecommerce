@@ -19,7 +19,7 @@ function PageContent() {
         <Route path="/shop">
           <ShopPage />
         </Route>
-        <Route path="/community">
+        <Route path="/contact">
           <CommunityPage />
         </Route>
       </Switch>
