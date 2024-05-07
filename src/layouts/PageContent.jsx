@@ -4,7 +4,7 @@ import ShopPage from "../pages/ShopPage";
 import ProductDetailPage from "../pages/ProductDetailPage";
 import { Route, Switch } from "react-router-dom";
 import TeamPage from "../pages/TeamPage";
-import ContactPage from "../pages/ContactPage";
+import ContactPage from "../components/communitypageComponents/ContactPage";
 
 function PageContent() {
   return (

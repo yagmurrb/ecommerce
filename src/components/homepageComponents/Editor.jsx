@@ -12,14 +12,14 @@ function Editor() {
         </p>
       </div>
 
-      <div className="flex resimalani max-w-[1050px] mx-auto">
-        <div className=" flex  w-1/2 bir numara">
+      <div className="flex resimalani max-w-[1050px] mx-auto max-sm:flex-col">
+        <div className=" flex  max-sm:mx-auto sm:w-1/2 bir numara">
           <CategoryCard
             src={CategoryCardData[0].url}
             title={CategoryCardData[0].category}
           />
         </div>
-        <div className="flex  w-1/4  iki numara">
+        <div className="flex  max-sm:mx-auto sm:w-1/4  iki numara">
           <div className="flex ">
             <CategoryCard
               src={CategoryCardData[1].url}
@@ -27,7 +27,7 @@ function Editor() {
             />
           </div>
         </div>
-        <div className=" flex-col w-1/4   uc numara">
+        <div className=" flex-col  max-sm:mx-auto sm:w-1/4   uc numara">
           <div>
             <CategoryCard
               src={CategoryCardData[2].url}
