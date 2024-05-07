@@ -3,7 +3,7 @@ import React from "react";
 const ContactPage = () => {
   return (
     <div className="">
-      <div className=" container flex flex-col mx-auto py-8 max-w-xl">
+      <div className=" container flex flex-col mx-auto py-8 max-w-xl ">
         <div>
           <h2
             className="text-h2 font-bold text-center mb-6"

@@ -395,3 +395,59 @@ export const sponsorlogos = [
     imageUrl: "src/assets/brand6.svg",
   },
 ];
+export const teams = [
+  {
+    imageUrl1:
+      "https://t3.ftcdn.net/jpg/06/11/52/10/360_F_611521071_MnzKNI2jAH4azth12xhrQtoqavPGYvQ9.jpg",
+    username: "Username",
+    profession: "Profession",
+  },
+  {
+    imageUrl1:
+      "https://st.depositphotos.com/1875497/51393/i/450/depositphotos_513937809-stock-photo-portrait-beautiful-young-asian-woman.jpg",
+    username: "Username",
+    profession: "Profession",
+  },
+  {
+    imageUrl1:
+      "https://t4.ftcdn.net/jpg/01/19/59/53/360_F_119595329_YSWlhB0m1NxOlemrBLWVz4y4RzVNmOaB.jpg",
+    username: "Username",
+    profession: "Profession",
+  },
+  {
+    imageUrl1:
+      "https://media.istockphoto.com/id/1184056094/photo/full-body-picture-of-pretty-afro-american-model-in-ethnic-dress-isolated-on-colorful.jpg?s=612x612&w=0&k=20&c=ISpeWv2yGN2Qy7q_GZVDl5XI0DXi1vm9t780bmih1Vo=",
+    username: "Username",
+    profession: "Profession",
+  },
+  {
+    imageUrl1:
+      "https://img.freepik.com/free-photo/romantic-girl-with-wavy-hairstyle-posing-orange-with-smile-indoor-portrait-amazing-white-lady-trendy-sweater_197531-11101.jpg",
+    username: "Username",
+    profession: "Profession",
+  },
+  {
+    imageUrl1:
+      "https://www.shutterstock.com/image-photo/gorgeous-shorthaired-girl-sunglasses-dancing-600nw-750408166.jpg",
+    username: "Username",
+    profession: "Profession",
+  },
+  {
+    imageUrl1:
+      "https://t4.ftcdn.net/jpg/02/72/53/09/360_F_272530952_REgDcKtZDnNwaY9nNeMjXNeD3UPBzByG.jpg",
+    username: "Username",
+    profession: "Profession",
+  },
+  {
+    imageUrl1:
+      "https://img.freepik.com/free-photo/surprised-fair-haired-woman-sunglasses-looking-her-hand_197531-12739.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1711929600&semt=ais",
+    username: "Username",
+    profession: "Profession",
+  },
+  {
+    imageUrl1:
+      "https://t4.ftcdn.net/jpg/04/00/58/99/360_F_400589991_4iTmM7ynoPHWvJ51tOlqTncUz0s8cvcX.jpg",
+    username: "Username",
+    profession: "Profession",
+  },
+];

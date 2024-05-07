@@ -1,10 +1,10 @@
 import React from "react";
-
 import HomePage from "../pages/HomePage";
-import { Route, Switch } from "react-router-dom";
-import ProductDetailPage from "../pages/ProductDetailPage";
 import ShopPage from "../pages/ShopPage";
-import CommunityPage from "../components/communitypageComponents/CommunityPage";
+import ProductDetailPage from "../pages/ProductDetailPage";
+import { Route, Switch } from "react-router-dom";
+import TeamPage from "../pages/TeamPage";
+import ContactPage from "../pages/ContactPage";
 
 function PageContent() {
   return (
@@ -13,14 +13,17 @@ function PageContent() {
         <Route exact path="/">
           <HomePage />
         </Route>
+        <Route exact path="/shop">
+          <ShopPage />
+        </Route>
         <Route exact path="/productdetailpage">
           <ProductDetailPage />
         </Route>
-        <Route path="/shop">
-          <ShopPage />
+        <Route exact path="/teampage">
+          <TeamPage />
         </Route>
         <Route path="/contact">
-          <CommunityPage />
+          <ContactPage />
         </Route>
       </Switch>
     </div>
