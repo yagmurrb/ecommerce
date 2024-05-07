@@ -5,6 +5,7 @@ import ProductDetailPage from "../pages/ProductDetailPage";
 import { Route, Switch } from "react-router-dom";
 import TeamPage from "../pages/TeamPage";
 import ContactPage from "../components/communitypageComponents/ContactPage";
+import AboutUs from "../pages/AboutUs";
 
 function PageContent() {
   return (
@@ -24,6 +25,9 @@ function PageContent() {
         </Route>
         <Route path="/contact">
           <ContactPage />
+        </Route>
+        <Route path="/about">
+          <AboutUs />
         </Route>
       </Switch>
     </div>

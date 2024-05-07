@@ -2,7 +2,7 @@ import React from "react";
 import DesktopCloths from "../components/shoppageComponents/DestkopCloths";
 import CategoryList from "../components/shoppageComponents/CategoryList";
 import FilterSide from "../components/shoppageComponents/FilterSide";
-import Sponsors from "../components/Sponsors";
+import Sponsors from "../components/reusableComponents/Sponsors";
 
 function ShopPage() {
   return (
