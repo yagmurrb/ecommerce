@@ -30,7 +30,7 @@ function PageContent() {
         <Route path="/about">
           <AboutUs />
         </Route>
-        <Route path="/signup">
+        <Route path="/register">
           <SignUp />
         </Route>
       </Switch>
